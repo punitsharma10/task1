@@ -1,0 +1,41 @@
+.circle-container {
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    padding-left: 32px;
+  }
+  
+  .percentage-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .styled-circle {
+    transform-origin: 50% 50%;
+  }
+
+  .price-tag{
+    margin: 15px 8px 15px -1px ;
+    padding-left: -15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #9809D8;
+  }
+
+  .money-logo{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: -7px;
+    padding-right: 15px;
+  }
+  

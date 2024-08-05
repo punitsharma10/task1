@@ -1,0 +1,166 @@
+.card {
+  max-width: 360px;
+  height: 770px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #ffffff, #f7e5ff);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circle1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #be40f4;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.circle2 {
+  width: 118px;
+  height: 118px;
+  border-radius: 100%;
+  background-color: #be40f4;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.saving-image {
+  width: 64px;
+  height: 64px;
+}
+
+p {
+  margin: 0px;
+}
+
+.ptag {
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 8px;
+}
+
+.inner {
+  margin: 0;
+  padding-top: 2px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  margin-left: -80px;
+}
+
+.p-tag {
+  color: white;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.burger-image {
+  background-color: #f7e5ff;
+  border-radius: 10px;
+  height: 58px;
+  width: 58px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ptagprice {
+  font-size: 11px;
+  font-weight: 700;
+  color: #a400f1;
+  padding-top: 5px;
+}
+
+.spent {
+  font-size: 6px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+
+.inner-card {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  height: 227px;
+  background-color: white;
+  border-radius: 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: -20px;
+}
+
+.brd {
+  width: 251px;
+  height: 0.3px;
+  background-color: #f0f0f0;
+}
+
+.base {
+  color: #a400f1;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+h1 {
+  margin: 0px;
+  color: white;
+}
+
+.burgerlogo {
+  justify-content: center;
+  align-items: center;
+  padding: 15px 17px 12px 15px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a904f1;
+  width: 360px;
+  height: 262px;
+  border-radius: 35px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  position: absolute;
+  top: 240px;
+  left: 30px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.footer {
+  padding-top: 450px;
+}
+
+.pg {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* padding: 20px 40px 15px 15px; */
+  /* padding-bottom: 50px; */
+}
+
+/* .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  height: 70px;
+  width: 300px;
+  top: 500;
+} */

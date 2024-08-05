@@ -1,0 +1,29 @@
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 14px;
+    /* background-color: white; */
+  }
+  .home{
+    border-color: #A400F1;
+    color: #A400F1;
+  }
+
+  .bag {
+    border-color: #A400F1;
+    color: #A400F1;
+  }
+
+  .plussign {
+    color: #A400F1;
+  }
+
+  .riapp{
+    border-color: #A400F1;
+    color: #A400F1;
+  }
+  .pichat{
+    border-color: #A400F1;
+    color: #A400F1;
+  }

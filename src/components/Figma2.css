@@ -1,0 +1,109 @@
+
+.card {
+    max-width: 360px;
+   height: 750px;
+    margin: 0 auto;
+    /* padding: 16px; */
+    background: linear-gradient(135deg, #FFFFFF, #F7E5FF);
+    border-radius: 30px;
+  }
+  
+  .summary-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* .summary-header2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  } */
+  
+  .date {
+    position: absolute;
+    font-size: 8px;
+    font-weight: 400;
+    top: 43px;
+  }
+
+  .price {
+    color: #9809D8;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .balanceCircle {
+    position: relative;
+    /* width: 150px;
+    height: 150px;
+    margin: 0 auto 24px auto;
+    background: conic-gradient(#ff4081 40%, #9c27b0 40%);
+    border-radius: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* color: white;
+    font-weight: bold;
+    font-size: 1.5rem; */
+  }
+  
+  .balanceCircle:after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+  }
+  
+  .balanceCircle > div {
+    position: relative;
+    z-index: 1;
+  }
+
+  .main-card {
+    /* padding: 20px; */
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px; 
+    width: 100%;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 17px;
+    height: 70px;
+    width: 300px;
+  }
+  
+  .plussign {
+    color: #A400F1;
+  }
+  
+  .bag {
+    border-color: #A400F1;
+    color: #A400F1;
+  }

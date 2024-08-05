@@ -1,0 +1,71 @@
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 227px;
+    background-color: white;
+    border-radius: 35px; 
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .burger-image{
+    background-color: #F7E5FF;
+    height: 58px;
+    width: 58px;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .p-tag{
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+   }
+
+   .ptagprice{
+    font-size: 11px;
+    font-weight: 700;
+    color: #A400F1;
+   }
+
+   .spent{
+    font-size: 6px;
+    font-weight: 400;
+   }
+
+   .brd{
+    width:251px;
+    height:2px;
+    background-color: gray;
+  }
+  
+  .base{
+    color: #A400F1;
+    font-weight: 700;
+    font-size: 11px;
+  }
+
+  .pg{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* padding: 20px 40px 15px 15px; */
+    padding-top: 500px;
+  }
+
+  .line-progress{
+    padding-right: 20px;
+    padding-right: 10px;
+    height: 90px;
+    width: 251px;
+  }
+
+  .line-progress path {
+    stroke-width: 5;
+  }
+

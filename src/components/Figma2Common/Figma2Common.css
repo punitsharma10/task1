@@ -1,0 +1,71 @@
+.transaction-card {
+    /* background: linear-gradient(135deg, #F9EDFF, #FFFFFF); */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 95%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    /* border-radius: 40px; */
+    /* border-top-left-radius: 40px;
+    border-top-right-radius: 40px; */
+  }
+
+  .card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .inner-card1{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .headingh2{
+    margin: 0 0 0 0;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .headingh4{
+    margin: 0 0 0 0;
+    font-size: 12px;
+    font-weight: 400
+  }
+
+  .prizeheading {
+    margin: 0 0 0 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #A400F1;
+  }
+
+  .dateheading {
+    margin: 0 0 0 0;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .img {
+    background-color: #F7E5FF;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .prizeheading-positive {
+    color: #A400F1;
+  }
+  
+  .prizeheading-negative {
+    color: #FF0000;
+  }

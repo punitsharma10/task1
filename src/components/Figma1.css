@@ -1,0 +1,171 @@
+
+.container {
+  /* max-width: 360px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #f8f9fa;
+  background: linear-gradient(135deg, #FFFFFF, #F7E5FF); */
+
+  max-width: 360px;
+  height: 780px;
+   margin: 0 auto;
+   /* padding: 16px; */
+   background: linear-gradient(135deg, #FFFFFF, #F7E5FF);
+   border-radius: 30px;
+}
+
+.summary-header {
+  display: flex;
+  flex-direction: column;
+  font-size:small;
+  text-align: left;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+
+.heading-h2{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.date {
+  position: absolute;
+  top: 30px;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.card {
+  background: linear-gradient(135deg, #FF005C, #A400F1);
+  width: 293px;
+  height: 166px;
+  border-radius: 30px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.card-logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 100%;
+  opacity: 0.7;
+  width: 26px;
+  height: 26px;
+}
+
+.card-logo1 {
+  top: 0;
+  left: 0;
+}
+
+.card-logo2 {
+  top: 0px; /* Adjust for the desired overlap */
+  left: 15px; /* Adjust for the desired overlap */
+}
+
+.card-logo3 {
+  top: 0px; /* Adjust for the desired overlap */
+  left: 30px; /* Adjust for the desired overlap */
+}
+
+.card-images {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 260px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-size: 14px;
+  margin-bottom: 7px; */
+}
+
+.family{
+  margin: 0 0 0 0;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.card-balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p-amount {
+  margin: 0 0 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  /* margin-bottom: 10px; */
+}
+
+.second-card {
+  padding-bottom: 10px;
+}
+
+.card-details {
+  /* display: flex;
+  justify-content: space-between; */
+  margin: 0 0 0 0;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.top-categories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  padding-left: 30px;
+  padding-right: 40px;
+  gap: 50px;
+  margin-bottom: 10px;
+  height: 350px; 
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.icon {
+  padding-top: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.heading {
+  text-align: left;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.custom-range {
+  color: linear-gradient(135deg, #FF005C, #A400F1);
+}
+
+.slider {
+  align-items: center;
+  width: 82px;
+  border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .top-categories {
+    grid-template-columns: 1fr 1fr;
+  }
+}

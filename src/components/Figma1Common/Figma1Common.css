@@ -1,0 +1,36 @@
+.category-card {
+    background: white;
+    width: 138px;
+    height: 138px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-title {
+    font-size: 13px;
+    font-weight:600;
+    margin: 4px 0;
+  }
+  
+  .category-amount {
+    font-size: 6px;
+    font-weight: 600;
+    color: #9809D8;
+  }
+  
+  .progressbar1{
+    /* border: 1px solid red; */
+    margin-bottom: -2em;
+  }
+
+  .progressbar1 text {
+    display: none;
+  }
+
+  .progressbar1 svg {
+    margin: 0;
+    padding: 0;
+  }
