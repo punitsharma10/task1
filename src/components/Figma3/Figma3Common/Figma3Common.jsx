@@ -3,8 +3,36 @@ import React from "react";
 import { BsExclamationCircle } from "react-icons/bs";
 import LinearProgressBar from "../../LinearProgressBar/LinearProgressBar";
 
-const Figma3Common = ({ img, ptag, ptagprice, spent, percentage }) => {
+// const calculatePercentage = (spent) => {
+//   const regex = /(?:Spent|Overspending) \$([\d,]+) from \$([\d,]+)/;
+//   const match = spent.match(regex);
+//   if (match) {
+//     const spentAmount = parseFloat(match[1].replace(/,/g, ''));
+//     const totalAmount = parseFloat(match[2].replace(/,/g, ''));
+//     if (totalAmount > 0) {
+//       return ((spentAmount / totalAmount) * 100).toFixed(2);
+//     }
+//   }
+//   return 0;
+// };
 
+const parseSpentString = (spent) => {
+  const regex = /(?:Spent|Overspending) \$([\d,]+) from \$([\d,]+)/; // Updated regex
+  const match = spent.match(regex);
+  if (match) {
+    const spentAmount = parseFloat(match[1].replace(/,/g, '')); // Extract spent amount
+    const totalAmount = parseFloat(match[2].replace(/,/g, ''));
+    if (totalAmount > 0) {
+      const percentage = ((spentAmount / totalAmount) * 100).toFixed(2); // Calculate percentage
+      return { spentAmount, percentage }; // Return both values
+    }
+  }
+  return { spentAmount: 0, percentage: 0 };
+};
+
+const Figma3Common = ({ img, ptag, ptagprice, spent }) => {
+  // const percentage = calculatePercentage(spent);
+  const { spentAmount, percentage } = parseSpentString(spent);
   const message = percentage >= 50 ? "Oops!" : "Good Job !";
   const textColor = percentage >= 50 ? "#FF005C" : "#A400F1";
 
@@ -23,6 +51,7 @@ const Figma3Common = ({ img, ptag, ptagprice, spent, percentage }) => {
         <div className="linear-progress-bar">
           <LinearProgressBar
             percentage={percentage}
+            spentAmount={spentAmount} 
             height={20}
             primaryColor={["#9809D8", "#FF005C"]}
             secondaryColor="#F7E5FF"

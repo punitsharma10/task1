@@ -14,7 +14,8 @@ const LinearProgressBar = ({
   primaryColor,
   secondaryColor,
   hidePercentageText,
-  strokeLinecap
+  strokeLinecap,
+  spentAmount,
 }) => {
   const progressBarStyle = {
     width: `${percentage}%`,
@@ -43,7 +44,7 @@ const LinearProgressBar = ({
               color: fontColor,
             }}
           >
-            <p className='price-tag'>${percentage}</p>
+            <p className='price-tag'>${spentAmount}</p>
           </span>
         </div>
       ) : null}

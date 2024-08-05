@@ -21,14 +21,12 @@ const Figma3 = () => {
         img={burger} 
         ptag="Food & Drink" 
         ptagprice="$220.00/month" 
-        spent="Spent $120 from $5000" 
-        percentage={200}
+        spent="Spent $25 from $100" 
       />
       <Figma3Common
         img={burger} 
         ptag="Taxi Service" 
         ptagprice="$400.00/month"     
-        percentage={60}
         spent="Overspending $450 from $400" 
       />
       </div>
