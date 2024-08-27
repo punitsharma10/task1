@@ -20,14 +20,18 @@ const Figma3 = () => {
       <Figma3Common
         img={burger} 
         ptag="Food & Drink" 
-        ptagprice="$220.00/month" 
-        spent="Spent $25 from $100" 
-      />
+        // ptagprice="$220.00/month" 
+        // spent="Spent $60 from $100" 
+         total={100}
+         outof={60}
+      /> 
       <Figma3Common
         img={burger} 
         ptag="Taxi Service" 
-        ptagprice="$400.00/month"     
-        spent="Overspending $450 from $400" 
+        // ptagprice="$400.00/month"     
+        // spent="Overspending $100 from $400" 
+        total={1000}
+        outof={80}
       />
       </div>
       <div className='footer'><Footer/></div>

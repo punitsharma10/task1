@@ -1,0 +1,45 @@
+.circle-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 3px;
+    height: 20px;
+    width: 80px;
+
+}
+
+.percentage-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.styled-circle {
+    transform-origin: 50% 100%;
+}
+
+.price-tag {
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #9809D8;
+}
+
+.money-logo {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: -10px;
+    padding-right: 15px;
+}
+
+.svg-container{
+    border-radius: 15px 10px 10px 10px;
+}
